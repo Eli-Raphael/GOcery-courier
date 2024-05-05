@@ -1,5 +1,5 @@
 const express = require("express");
-const Product = require('./models/goceryModel');
+const Product = require('./models/productModel');
 const app = express();
 const db = require("./db.js");
 
