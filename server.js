@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
     res.send("Server is working on Port " + port);
 });
 
-app.get("/getproduct" , async (req, res) => {
+app.get("/getproducts" , async (req, res) => {
     try {
         const docs = await Product.find({});
         res.send(docs);
