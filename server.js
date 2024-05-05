@@ -3,7 +3,7 @@ const Product = require('./models/productModel');
 const app = express();
 const db = require("./db.js");
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 //app.use(express.static('public'));
 app.use(express.json());
