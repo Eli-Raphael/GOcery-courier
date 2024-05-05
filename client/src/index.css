@@ -1,3 +1,5 @@
+/* ADD FONT LATER */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-nav .nav-link {
+  color: black !important;
+ }
+
+.navbar .navbar-brand {
+  color: black !important;
+ }
+
+ h1{
+  font-size: 20px !important;
+ }

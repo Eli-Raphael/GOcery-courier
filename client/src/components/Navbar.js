@@ -1,12 +1,12 @@
-import react from "react";
+import React from "react";
 
 export default function Navbar() {
-  return (
+ return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            GOcery
           </a>
           <button
             className="navbar-toggler"
@@ -20,15 +20,15 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                <a className="nav-link" aria-current="page" href="#">
+                 Login
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                 Cart
                 </a>
               </li>
             </ul>
@@ -36,5 +36,5 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
-  );
+ );
 }
