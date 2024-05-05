@@ -14,14 +14,34 @@ code {
     monospace;
 }
 
+/* NAVBAR */
+.navbar {
+  background-color: #088404;
+  color: white;
+ }
+
 .navbar-nav .nav-link {
-  color: black !important;
+  color: white !important;
  }
 
 .navbar .navbar-brand {
-  color: black !important;
+  color: white !important;
  }
 
  h1{
   font-size: 20px !important;
+ }
+
+ .flex-container{
+  display: flex !important;
+ }
+
+ .btn{
+  background-color: green !important;
+  color: white !important;  
+ }
+
+ select{
+  box-shadow: none !important;
+  border-color: black !important;
  }

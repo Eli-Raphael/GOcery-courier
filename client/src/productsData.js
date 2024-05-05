@@ -4,9 +4,8 @@ const products = [
        variants: ["Bag", "Loose"],
        prices: [
          {
-           small: 1.99,
-           medium: 3.99,
-           large: 5.99,
+           Bag: 1.99,
+           Loose: 3.99,
          },
        ],
        category: "Vegetables",
@@ -15,26 +14,25 @@ const products = [
     },
     {
        name: "Bread",
-       variants: ["Whole wheat, Whole grain, Rye bread"],
+       variants: ["Whole_Wheat", "Whole_Grain", "Rye"],
        prices: [
          {
-           small: 3.49,
-           medium: 6.99,
-           large: 9.99,
+           Whole_Wheat: 3.49,
+           Whole_Grain: 6.99,
+           Rye: 9.99,
          },
        ],
        category: "Bakery",
-       image: "https://upload.wikimedia.org/wikipedia/commons/3/33/Fresh_made_bread_05.jpg/whole-wheat-bread.jpg",
+       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA0iR8MWuo1lThRkYp87zdNB0bWUq1Y1F4Lg&s",
        description: "Whole wheat bread, great for sandwiches and toast.",
     },
     {
        name: "Almond Milk",
-       variants: ["Carton"],
+       variants: ["Carton", "Glass_Bottle"],
        prices: [
          {
-           small: 2.99,
-           medium: 5.99,
-           large: 8.99,
+          Carton: 2.99,
+          Glass_Bottle: 5.99,
          },
        ],
        category: "Dairy",
@@ -42,13 +40,13 @@ const products = [
        description: "Nutritious almond milk, suitable for all dietary needs.",
     },
     {
-       name: "Organic Avocado",
-       variants: ["Each"],
+       name: "Avocado",
+       variants: ["Gwen", "Zutanu", "Bacon"],
        prices: [
          {
-           small: 1.49,
-           medium: 2.99,
-           large: 4.99,
+          Gwen: 1.49,
+          Zutanu: 2.99,
+          Bacon: 5.99
          },
        ],
        category: "Fruits",
@@ -60,9 +58,7 @@ const products = [
        variants: ["Bag"],
        prices: [
          {
-           small: 4.99,
-           medium: 9.99,
-           large: 14.99,
+           Bag: 4.99,
          },
        ],
        category: "Bakery",
@@ -74,9 +70,8 @@ const products = [
       variants: ["Jar", "Bottle"],
       prices: [
         {
-          small: 5.99, // Jar
-          medium: 10.99, // Bottle
-          large: "", // No large variant for this product
+          Jar: 5.99, 
+          Bottle: 10.99,
         },
       ],
       category: "Bakery",
