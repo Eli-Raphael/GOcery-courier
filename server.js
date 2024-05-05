@@ -3,6 +3,9 @@ const Product = require('./models/productModel');
 const app = express();
 const db = require("./db.js");
 
+const port = process.env.PORT || 5000;
+
+//app.use(express.static('public'));
 app.use(express.json());
 
 app.get("/", (req, res) => {
@@ -18,8 +21,6 @@ app.get("/getproducts" , async (req, res) => {
         res.status(500).send("Internal Server Error");
     }
 });
-
-const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
     console.log("Server is running on port " + port);
