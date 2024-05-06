@@ -12,8 +12,12 @@
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.3.3",
+<<<<<<< HEAD
     "nodemon": "^3.1.0",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.9"
+=======
+    "nodemon": "^3.1.0"
+>>>>>>> parent of edb14e0 (5.5.24)
   }
 }

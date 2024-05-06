@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const productSchema = new mongoose.Schema({
+const grocerySchema = new mongoose.Schema({
     name: { type: String, required: true },
     variants: [{ type: String, required: true }],
     prices: [{ type: Number, required: true }],
@@ -11,6 +11,10 @@ const productSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const productModel = mongoose.model('Product', productSchema);
+const groceryModel = mongoose.model('Product', grocerySchema);
 
+<<<<<<< HEAD:models/productModel.js
 module.exports = productModel;
+=======
+module.exports = groceryModel;
+>>>>>>> parent of edb14e0 (5.5.24):models/goceryModel.js
